@@ -1,0 +1,58 @@
+<html lang="en">
+    <head>
+      <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+              }
+
+              .green-border-focus .form-control:focus {
+                border: 1px solid #8bc34a;
+                box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
+              }
+
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+            </style>
+      <!-- Extension JS -->
+        <script src="script.js"></script>
+    </head>
+    <body class="text-center">
+      <form class="form-signin">
+        <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+        <br>
+        <img class="mb-4" src="./pencil.png" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Quick Compose</h1>
+        <div class="form-group green-border-focus">
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input class="form-control" type="email" id="emailAddress" placeholder="Email address" required="" autofocus="">
+        </div>
+        <div class="form-group green-border-focus">
+        <label for="inputSubject" class="sr-only">Subject</label>
+        <input class="form-control" type="subject" id="emailSubject" placeholder="Subject" required="" autofocus="">
+        </div>
+        <div class="form-group green-border-focus">
+        <label for="inputBody" class="sr-only">Email message</label>
+        <textarea class="form-control" type="email" id="emailBody" placeholder="Message" rows=3 required="" autofocus=""></textarea>
+        </div>
+        <button class="btn btn-sm btn-success" type="submit" id="send">Send</button>
+        </div>
+        </div>
+        <p class="mt-5 mb-3 text-muted">© 2019 J.McLauchlan</p>
+        <p class="mt-5 mb-3 text-muted">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons" target="blank">Smashicons</a></p>
+      </form>
+      </body>
+</html>
